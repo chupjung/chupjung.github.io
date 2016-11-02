@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* Extra small devices (phones, less than 768px) */
+    /* No media query since this is the default in Bootstrap */
+
+    /* Small devices (tablets, 768px and up) */
+    
+@media screen and (max-width: 991px) {
+	.card {
+		width: 100%;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.card {
+		width: 100%;
+	} 
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px){
+	.card {
+		width: 370px; 
+	} 
+}
